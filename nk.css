@@ -1,0 +1,255 @@
+body, html {
+    height: 100%;
+    width:100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato",sans-serif;
+    color: #777;
+    font-family: 'Arvo', serif;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+.parallax,.img2,.img3,.parallax1 {
+    /* The image used */
+    position: relative;
+    opacity: 0.5;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax{
+     background-image: url("garments.jpg");
+     height: 100%;
+}
+.parallax1{
+     background-image: url("garments1.jpg");
+     height: 90%;
+}
+.img2{
+     background-image: url("img2.jpg");
+     height: 400px;
+}
+.img3{
+     background-image: url("img3.jpg");
+     height: 450px;
+}
+.NKC {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.NKC span.border {
+    background-color: transparent;
+    color: #fff;
+    padding: 18px;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+.NKC span.border2 {
+    background-color: transparent;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 15px;
+}
+.NKC span.border1 {
+    background-color: transparent;
+    color: black;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 15px;
+}
+h3{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font:20px "Lato",sans-serif;
+    color: #111;
+    text-align: center;
+    word-spacing: 10px;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+#contact .fa {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align:center;
+}
+/* indicator position */
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+/* indicator color */
+#quote-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+/* active indicator */
+#quote-carousel .carousel-indicators .active {
+  background: #333333;
+  height:10px;
+  width:10px;
+  margin-bottom:1px;
+}
+.testimonial
+{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    background-color: blanchedalmond;
+    height: 50%;
+    padding-top: 0px;
+    font-size: 25px;
+    border: solid gold;
+    border-style: double;
+    font-family: 'Bellefair', serif;
+}
+.navbar{
+    margin-top: -50px;
+    padding:10px
+}
+.nav-brand{
+    margin-top: -10px;
+    height:50px;
+    width:50px
+}
+li{
+    margin-right: 30px
+}
+.heading{
+    height:90px;
+    margin-bottom: 10px
+}
+.who{
+    color:#777;
+    background-color:white;
+    text-align:center;
+    padding:50px 80px;
+    text-align:justify;
+}
+.desc,.icons{
+    position: relative;
+}
+.Neeraj{
+    background-color: #282E34;
+    color: #ddd;
+    text-align: center;
+    text-align: justify;
+    padding: 50px 80px
+}
+.media-object{
+    width:200px;
+    border-radius: 50px
+}
+.media-heading{
+    text-align: center;
+}
+.clients{
+    background-color: #282E34;
+    color: #ddd;
+    text-align: center;
+    text-align: justify;
+    padding: 50px 80px
+}
+.adidas,.RL,.puma,.ms,.arvind,.pantaloons{
+    border-radius: 150px;
+    width: 150px;
+    height: 150px
+}
+.final{
+    color:#777;
+    background-color:black;
+    text-align:justify;
+}
+#map-container{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px
+}
+.btn-fb{
+    background-color: #3b5998;
+    height: 70px
+}
+.btn-li{
+    background-color: #0077B5;
+    height: 70px
+}
+.final{
+    padding:50px 80px;
+}
+@media only screen and (max-width: 550px) {
+    .Neeraj,.img2 {
+        display: none;
+    }
+    .adidas,.RL,.puma,.ms,.arvind,.pantaloons{
+    border-radius: 150px;
+    width: 65px;
+    height: 65px
+}
+.clients{
+    background-color: #282E34;
+    color: #ddd;
+    text-align: center;
+    text-align: justify;
+    padding: 40px 20px;
+}
+.testimonial{
+    display: none;
+}
+#map-container{
+    display: none;
+}
+ .NKC span.border {
+    background-color: transparent;
+    color: #fff;
+    padding: 18px;
+    font-size: 50px;
+    letter-spacing: 9px;
+}
+.who{
+        padding:20px 20px;
+    }
+    .parallax1{
+        height:75%;
+    }
+.btn-fb{
+    background-color: #3b5998;
+    height: 70px;
+        margin-left:0px;
+}
+.btn-li{
+    background-color: #0077B5;
+    height: 70px;
+    margin-left:0px;
+}
+.final{
+    padding: 20px 20px;
+}
+#contact .fa {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+}
+
+
+

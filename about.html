@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ABOUT</title>
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBg8xB6uUWpAxRzJWB4AIfz0mUJQ8g4_7o"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.1/css/mdb.min.css">
+	<script type="text/javascript">
+     	 function init_map() {
+            var var_location = new google.maps.LatLng(12.968410, 77.648297);
+            var var_mapoptions = {
+                center: var_location,
+                zoom: 14
+            };
+            var var_marker = new google.maps.Marker({
+                position: var_location,
+                map: var_map,
+                title: "NKC"
+            });
+            var var_map = new google.maps.Map(document.getElementById("map-container"),
+                var_mapoptions);
+            var_marker.setMap(var_map);
+         }
+         google.maps.event.addDomListener(window, 'load', init_map);
+         var modal = document.getElementById('id01');
+     </script>
+</head>
+<body>
+		 <a href="nk.html" style="color: white;"><button type="button" class="btn btn-success" style="border-radius: 50px;margin-top: -40px">Home</button></a>
+		<div class="container single">
+			<h1><img src="logo.png" class="heading"></img> ABOUT US</h1>
+			<hr>
+			<h3>In search of excellence “Our aim is to assist our client to build a team with leaders and team players having an edge 	over others”
+			</h3>
+			<hr>
+			<br>
+			<h3>We are a professionally run organization that acts as a bridge between candidates seeking new challenges and organizations 	looking for dynamic and ambitious professionals.</p>
+			<p>We have qualified and well trained staff to screen our database and appropriate senior level industry specific executives 	on our panel to assist us to fulfill our client’s requirement.</p></h3>
+			<br>
+			<h2><b>Services Offered</b></h2>
+			<h3><ul class="center">
+				<li><p><img src="bullet.jpg" style="width: 4%">Executive Search</p></li>
+				<li><p><img src="bullet.jpg" style="width: 4%">Databank Placement</p></li> 
+				<li><p><img src="bullet.jpg" style="width: 4%">Preliminary Interviews</p></li>
+				<li><img src="bullet.jpg" style="width: 4%">Confidential Reference Check</li>
+			</ul></h3>
+			<br>
+			<h2><b>Our Strength</b></h2>
+			<h3>
+				<p>Our strength lies in finding the appropriate candidate for our client (be it through headhunting, our database or advertising)</p>
+				<p>We believe in partnering with our client and not just posting resumes.</p>
+				<p>Therefore we do part of our client’s job by doing a preliminary round of interview and also reference checks, thus diminishing the client’s workload and time spent on hiring.</p>
+				<p>Our strength also lies in the data that we have collected over a period of time based on our selection process. Simultaneously we have followed the career growth of our potential candidates, this has helped us to continuously edit and upgrade our data with the right profiles.</p>
+			</h3>
+			<br>
+			<h2><b>Our Working – An Overview</b></h2>
+			<h3>
+				<ul class="center1">
+					<li><p><img src="bullet.jpg" style="width: 1.5%">Identification of client’s need through assessing the organization and job profile.</p></li>
+					<li><p><img src="bullet.jpg" style="width: 1.5%">Resume Screening and selection on basis of preliminary information provided by our client.</p></li> 
+					<li><p><img src="bullet.jpg" style="width: 1.5%">Screening candidates through preliminary test & interviews.</p></li>
+					<li><img src="bullet.jpg" style="width: 1.5%">National/International executive hunt if a required profile is not in our databank.</li>
+				</ul>
+			</h3>
+			<br><br>
+		</div>
+		<br>
+		<div style="color:#777;background-color:black;text-align:center;padding:50px 80px;text-align:justify;" class="container-fluid">
+			<h3 style="text-align: center;" class="contact"><b>Contact Us</b></h3>
+        	<section id="contact">
+	 		    <div class="row">
+                 	<div class="col-md-4 col-xs-12">
+                         <div id="map-container"></div>
+                 	</div>
+                 	<div style="text-align:center" class="col-md-4 col-xs-6">
+                   		<h4 style="margin-top: 50px">How can we help you?</h4>
+                   		<br><br>
+                   		<p>To upload your resume <a href="Apply.html">Click Here</a>
+                   		<br>
+                   		<p>To get in touch with the team <a href="Contact.html">Click Here</a></p>
+                   		<br><br>
+                   		<button type="button" class="btn btn-fb"><i class="fa fa-facebook left"></i> FACEBOOK</button>
+                   		<a href="https://www.linkedin.com/in/nkc-nkc-17922667/" target="_blank"><button type="button" class="btn btn-li"><i class="fa fa-linkedin left"></i> Linkedin</button></a>
+                    </div>
+                 	<div class="col-md-4 col-xs-6" style="margin:3% 0 0 0">
+                         	<ul class="text-center" style="list-style-type: none">
+                             	<li class="wow fadeInUp" data-wow-delay="0.2s"><i class="fa fa-map-marker"></i>
+                                 	<p>1550, 10th Main, HAL 3rd Stage</p>
+                                 	<p>Bangalore, Karnataka, India</p>
+                             	</li>
+                             	<br>
+                             	<li class="wow fadeInUp" data-wow-delay="0.3s"><i class="fa fa-phone"></i>
+                                 	<p>+ 918025205089,+ 919342435346</p>
+                             	</li>
+                             	<br>
+                             	<li class="wow fadeInUp" data-wow-delay="0.4s"><i class="fa fa-envelope"></i>
+                                 	<p>nkc@nkconsultants.co.in</p>
+                             	</li>
+                         	</ul>
+                	</div>
+            	</div>
+        	</section>
+		</div>
+<body>
+</html>

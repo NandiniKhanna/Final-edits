@@ -1,0 +1,146 @@
+body
+{
+	background-image:url('About-bg.jpg');
+	text-align: center;
+	font-family: 'Zilla Slab', serif;
+
+}
+.single
+{
+	background-color: white;
+	border-radius: 100px;
+	margin-top: 50px;
+	font-family: 'Zilla Slab', serif;
+	opacity: 0.8;
+}
+button{
+	float: left;
+}
+
+.center{
+	width: 350px;
+    margin:0 auto;
+    text-align:left;
+    list-style-type: square;
+}
+.center1{
+	margin:0 auto;
+    text-align:left;
+}
+ul{
+    list-style-type: square;
+}
+#contact .fa {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.contact{
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size:20px "Lato",sans-serif;
+}
+.modal {
+    display: none; /* Hidden by default */
+    overflow: hidden;
+    /*z-index: 1; /* Sit on top */
+    /*left: 0;
+    top: 0;
+    width: auto; /* Full width */
+    /*height: auto; /* Full height */
+    /*background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+.modal-content {
+    /*background-color: #fefefe;*/
+    margin: 1% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    /*border: 1px solid #888;*/
+    width: 77%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+#close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn {
+       width: 100%;
+    }
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+#subject, #headingg,#email {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+#pad {
+    padding: 10px;
+    left: -100px;
+}
+.heading{
+	height:90px;margin-bottom: 10px
+}
+#map-container{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px
+}
+.btn-fb{
+    background-color: #3b5998;
+    height: 70px
+}
+.btn-li{
+    background-color: #0077B5;
+    height: 70px
+}
+@media only screen and (max-width: 550px) {
+    
+#map-container{
+    display : none;
+}
+}

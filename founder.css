@@ -1,0 +1,41 @@
+body
+{
+	background-image:url('About-bg.jpg');
+	text-align: center;
+	font-family: 'Zilla Slab', serif;
+
+}
+.single
+{
+	background-color: white;
+	border-radius: 100px;
+	margin-top: 50px;
+	font-family: 'Zilla Slab', serif;
+	opacity: 0.8;
+}
+button{
+	float: left;
+}
+.desc {
+    position: relative;
+}
+.Neeraj{
+    text-align: center;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.media-object{
+    width:300px;
+    border-radius: 50px
+}
+.media-heading{
+    text-align: center;
+}
+p {
+    word-spacing: 5px;
+    font-size: 20px;
+}
+.media-body {
+    padding-left: 10px;
+}
